@@ -12,7 +12,7 @@
 		}
 	},
 
-	"postCreateCommand": "pip install -r code/requirements.txt -r code/app/requirements.txt -r extensions/backend/requirements.txt",
+	"postCreateCommand": "./.devcontainer/postCreate.sh",
 
 	"customizations": {
 		"vscode": {
@@ -23,6 +23,7 @@
 				"ms-azuretools.vscode-bicep",
 				"ms-azuretools.vscode-docker",
 				"ms-python.python",
+				"ms-python.black-formatter",
 				"ms-python.vscode-pylance",
 				"ms-vscode.vscode-node-azure-pack",
 				"TeamsDevApp.ms-teams-vscode-extension"
