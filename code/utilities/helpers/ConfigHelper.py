@@ -182,6 +182,33 @@ Answer: {answer}""",
                         "strategy": LoadingStrategy.DOCX
                     }
                 },
+                {
+                    "document_type": "jpg",
+                    "chunking": {
+                        "strategy": ChunkingStrategy.LAYOUT,
+                        "size": 500,
+                        "overlap": 100,
+                    },
+                    "loading": {"strategy": LoadingStrategy.LAYOUT},
+                },
+                {
+                    "document_type": "png",
+                    "chunking": {
+                        "strategy": ChunkingStrategy.LAYOUT,
+                        "size": 500,
+                        "overlap": 100,
+                    },
+                    "loading": {"strategy": LoadingStrategy.LAYOUT},
+                },
+                {
+                    "document_type": "pptx",
+                    "chunking": {
+                        "strategy": ChunkingStrategy.LAYOUT,
+                        "size": 500,
+                        "overlap": 100,
+                    },
+                    "loading": {"strategy": LoadingStrategy.LAYOUT},
+                },
             ],
             "logging": {
                 "log_user_interactions": True,

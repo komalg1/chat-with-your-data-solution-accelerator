@@ -137,8 +137,13 @@ param FunctionName string = '${ResourcePrefix}-backend'
 @description('Azure Form Recognizer Name')
 param FormRecognizerName string = '${ResourcePrefix}-formrecog'
 
+@allowed([
+  'eastus'
+  'westus2'
+  'westeurope'
+])
 @description('Azure Form Recognizer Location')
-param FormRecognizerLocation string = Location
+param FormRecognizerLocation string
 
 @description('Azure Speech Service Name')
 param SpeechServiceName string = '${ResourcePrefix}-speechservice'

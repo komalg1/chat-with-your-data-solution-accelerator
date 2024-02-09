@@ -1,5 +1,6 @@
 from azure.core.credentials import AzureKeyCredential
-from azure.ai.formrecognizer import DocumentAnalysisClient
+from azure.ai.documentintelligence import DocumentIntelligenceClient
+from azure.ai.documentintelligence.models import AnalyzeDocumentRequest
 import html
 import traceback
 from .EnvHelper import EnvHelper
@@ -11,7 +12,7 @@ class AzureFormRecognizerClient:
         self.AZURE_FORM_RECOGNIZER_ENDPOINT : str = env_helper.AZURE_FORM_RECOGNIZER_ENDPOINT
         self.AZURE_FORM_RECOGNIZER_KEY : str = env_helper.AZURE_FORM_RECOGNIZER_KEY
         
-        self.document_analysis_client = DocumentAnalysisClient(
+        self.document_analysis_client = DocumentIntelligenceClient(
             endpoint=self.AZURE_FORM_RECOGNIZER_ENDPOINT, credential=AzureKeyCredential(self.AZURE_FORM_RECOGNIZER_KEY), headers={"x-ms-useragent": "chat-with-your-data-solution-accelerator/1.0.0"}
         )
     
@@ -45,7 +46,7 @@ class AzureFormRecognizerClient:
         model_id = "prebuilt-layout" if use_layout else "prebuilt-read"
 
         try:
-            poller = self.document_analysis_client.begin_analyze_document_from_url(model_id, document_url=source_url)
+            poller = self.document_analysis_client.begin_analyze_document(model_id, AnalyzeDocumentRequest(url_source=source_url))
             form_recognizer_results = poller.result()
 
             # (if using layout) mark all the positions of headers
