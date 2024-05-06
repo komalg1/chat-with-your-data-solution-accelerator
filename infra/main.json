@@ -4,8 +4,8 @@
   "metadata": {
     "_generator": {
       "name": "bicep",
-      "version": "0.26.170.59819",
-      "templateHash": "7867283002505805735"
+      "version": "0.26.54.24096",
+      "templateHash": "3510292581200683693"
     }
   },
   "parameters": {
@@ -172,9 +172,6 @@
     "azureSearchUseIntegratedVectorization": {
       "type": "bool",
       "defaultValue": false,
-      "allowedValues": [
-        false
-      ],
       "metadata": {
         "description": "Use Azure Search Integrated Vectorization (Not yet implemented)"
       }
@@ -600,8 +597,8 @@
           "metadata": {
             "_generator": {
               "name": "bicep",
-              "version": "0.26.170.59819",
-              "templateHash": "18407114162280426775"
+              "version": "0.26.54.24096",
+              "templateHash": "4552321833419182500"
             },
             "description": "Creates an Azure Key Vault."
           },
@@ -693,8 +690,8 @@
           "metadata": {
             "_generator": {
               "name": "bicep",
-              "version": "0.26.170.59819",
-              "templateHash": "10580067567296932781"
+              "version": "0.26.54.24096",
+              "templateHash": "5605014717660667625"
             },
             "description": "Creates an Azure Cognitive Services instance."
           },
@@ -850,8 +847,8 @@
           "metadata": {
             "_generator": {
               "name": "bicep",
-              "version": "0.26.170.59819",
-              "templateHash": "10580067567296932781"
+              "version": "0.26.54.24096",
+              "templateHash": "5605014717660667625"
             },
             "description": "Creates an Azure Cognitive Services instance."
           },
@@ -999,8 +996,8 @@
           "metadata": {
             "_generator": {
               "name": "bicep",
-              "version": "0.26.170.59819",
-              "templateHash": "2390256577307700589"
+              "version": "0.26.54.24096",
+              "templateHash": "5795525499710207356"
             },
             "description": "Creates a role assignment for a service principal."
           },
@@ -1070,8 +1067,8 @@
           "metadata": {
             "_generator": {
               "name": "bicep",
-              "version": "0.26.170.59819",
-              "templateHash": "2390256577307700589"
+              "version": "0.26.54.24096",
+              "templateHash": "5795525499710207356"
             },
             "description": "Creates a role assignment for a service principal."
           },
@@ -1141,8 +1138,8 @@
           "metadata": {
             "_generator": {
               "name": "bicep",
-              "version": "0.26.170.59819",
-              "templateHash": "2390256577307700589"
+              "version": "0.26.54.24096",
+              "templateHash": "5795525499710207356"
             },
             "description": "Creates a role assignment for a service principal."
           },
@@ -1212,8 +1209,8 @@
           "metadata": {
             "_generator": {
               "name": "bicep",
-              "version": "0.26.170.59819",
-              "templateHash": "2390256577307700589"
+              "version": "0.26.54.24096",
+              "templateHash": "5795525499710207356"
             },
             "description": "Creates a role assignment for a service principal."
           },
@@ -1287,8 +1284,8 @@
           "metadata": {
             "_generator": {
               "name": "bicep",
-              "version": "0.26.170.59819",
-              "templateHash": "10580067567296932781"
+              "version": "0.26.54.24096",
+              "templateHash": "5605014717660667625"
             },
             "description": "Creates an Azure Cognitive Services instance."
           },
@@ -1451,8 +1448,8 @@
           "metadata": {
             "_generator": {
               "name": "bicep",
-              "version": "0.26.170.59819",
-              "templateHash": "12714039581294574286"
+              "version": "0.26.54.24096",
+              "templateHash": "5524474597014904513"
             }
           },
           "parameters": {
@@ -1641,8 +1638,8 @@
           "metadata": {
             "_generator": {
               "name": "bicep",
-              "version": "0.26.170.59819",
-              "templateHash": "14026634614072620805"
+              "version": "0.26.54.24096",
+              "templateHash": "9152892968520201499"
             },
             "description": "Creates an Azure AI Search instance."
           },
@@ -1810,8 +1807,8 @@
           "metadata": {
             "_generator": {
               "name": "bicep",
-              "version": "0.26.170.59819",
-              "templateHash": "6728315099548749563"
+              "version": "0.26.54.24096",
+              "templateHash": "6383905216384960764"
             },
             "description": "Creates an Azure App Service plan."
           },
@@ -1980,8 +1977,8 @@
           "metadata": {
             "_generator": {
               "name": "bicep",
-              "version": "0.26.170.59819",
-              "templateHash": "14642613133961389701"
+              "version": "0.26.54.24096",
+              "templateHash": "14895957370427135553"
             }
           },
           "parameters": {
@@ -2150,8 +2147,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "16814947130506798779"
+                      "version": "0.26.54.24096",
+                      "templateHash": "15755400863059802223"
                     },
                     "description": "Creates an Azure App Service in an existing Azure App Service plan."
                   },
@@ -2377,8 +2374,8 @@
                           "metadata": {
                             "_generator": {
                               "name": "bicep",
-                              "version": "0.26.170.59819",
-                              "templateHash": "15901877046756643519"
+                              "version": "0.26.54.24096",
+                              "templateHash": "17055000515602849240"
                             },
                             "description": "Updates app settings for an Azure App Service."
                           },
@@ -2455,8 +2452,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "2390256577307700589"
+                      "version": "0.26.54.24096",
+                      "templateHash": "5795525499710207356"
                     },
                     "description": "Creates a role assignment for a service principal."
                   },
@@ -2524,8 +2521,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "2390256577307700589"
+                      "version": "0.26.54.24096",
+                      "templateHash": "5795525499710207356"
                     },
                     "description": "Creates a role assignment for a service principal."
                   },
@@ -2593,8 +2590,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "2390256577307700589"
+                      "version": "0.26.54.24096",
+                      "templateHash": "5795525499710207356"
                     },
                     "description": "Creates a role assignment for a service principal."
                   },
@@ -2662,8 +2659,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "2390256577307700589"
+                      "version": "0.26.54.24096",
+                      "templateHash": "5795525499710207356"
                     },
                     "description": "Creates a role assignment for a service principal."
                   },
@@ -2728,8 +2725,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "7922086847377910894"
+                      "version": "0.26.54.24096",
+                      "templateHash": "4480412712998156633"
                     },
                     "description": "Assigns an Azure Key Vault access policy."
                   },
@@ -2915,8 +2912,8 @@
           "metadata": {
             "_generator": {
               "name": "bicep",
-              "version": "0.26.170.59819",
-              "templateHash": "14642613133961389701"
+              "version": "0.26.54.24096",
+              "templateHash": "14895957370427135553"
             }
           },
           "parameters": {
@@ -3085,8 +3082,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "16814947130506798779"
+                      "version": "0.26.54.24096",
+                      "templateHash": "15755400863059802223"
                     },
                     "description": "Creates an Azure App Service in an existing Azure App Service plan."
                   },
@@ -3312,8 +3309,8 @@
                           "metadata": {
                             "_generator": {
                               "name": "bicep",
-                              "version": "0.26.170.59819",
-                              "templateHash": "15901877046756643519"
+                              "version": "0.26.54.24096",
+                              "templateHash": "17055000515602849240"
                             },
                             "description": "Updates app settings for an Azure App Service."
                           },
@@ -3390,8 +3387,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "2390256577307700589"
+                      "version": "0.26.54.24096",
+                      "templateHash": "5795525499710207356"
                     },
                     "description": "Creates a role assignment for a service principal."
                   },
@@ -3459,8 +3456,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "2390256577307700589"
+                      "version": "0.26.54.24096",
+                      "templateHash": "5795525499710207356"
                     },
                     "description": "Creates a role assignment for a service principal."
                   },
@@ -3528,8 +3525,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "2390256577307700589"
+                      "version": "0.26.54.24096",
+                      "templateHash": "5795525499710207356"
                     },
                     "description": "Creates a role assignment for a service principal."
                   },
@@ -3597,8 +3594,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "2390256577307700589"
+                      "version": "0.26.54.24096",
+                      "templateHash": "5795525499710207356"
                     },
                     "description": "Creates a role assignment for a service principal."
                   },
@@ -3663,8 +3660,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "7922086847377910894"
+                      "version": "0.26.54.24096",
+                      "templateHash": "4480412712998156633"
                     },
                     "description": "Assigns an Azure Key Vault access policy."
                   },
@@ -3849,8 +3846,8 @@
           "metadata": {
             "_generator": {
               "name": "bicep",
-              "version": "0.26.170.59819",
-              "templateHash": "6350062594275183017"
+              "version": "0.26.54.24096",
+              "templateHash": "14327881814934928461"
             }
           },
           "parameters": {
@@ -4012,8 +4009,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "16814947130506798779"
+                      "version": "0.26.54.24096",
+                      "templateHash": "15755400863059802223"
                     },
                     "description": "Creates an Azure App Service in an existing Azure App Service plan."
                   },
@@ -4239,8 +4236,8 @@
                           "metadata": {
                             "_generator": {
                               "name": "bicep",
-                              "version": "0.26.170.59819",
-                              "templateHash": "15901877046756643519"
+                              "version": "0.26.54.24096",
+                              "templateHash": "17055000515602849240"
                             },
                             "description": "Updates app settings for an Azure App Service."
                           },
@@ -4317,8 +4314,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "2390256577307700589"
+                      "version": "0.26.54.24096",
+                      "templateHash": "5795525499710207356"
                     },
                     "description": "Creates a role assignment for a service principal."
                   },
@@ -4386,8 +4383,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "2390256577307700589"
+                      "version": "0.26.54.24096",
+                      "templateHash": "5795525499710207356"
                     },
                     "description": "Creates a role assignment for a service principal."
                   },
@@ -4455,8 +4452,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "2390256577307700589"
+                      "version": "0.26.54.24096",
+                      "templateHash": "5795525499710207356"
                     },
                     "description": "Creates a role assignment for a service principal."
                   },
@@ -4524,8 +4521,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "2390256577307700589"
+                      "version": "0.26.54.24096",
+                      "templateHash": "5795525499710207356"
                     },
                     "description": "Creates a role assignment for a service principal."
                   },
@@ -4590,8 +4587,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "7922086847377910894"
+                      "version": "0.26.54.24096",
+                      "templateHash": "4480412712998156633"
                     },
                     "description": "Assigns an Azure Key Vault access policy."
                   },
@@ -4773,8 +4770,8 @@
           "metadata": {
             "_generator": {
               "name": "bicep",
-              "version": "0.26.170.59819",
-              "templateHash": "6350062594275183017"
+              "version": "0.26.54.24096",
+              "templateHash": "14327881814934928461"
             }
           },
           "parameters": {
@@ -4936,8 +4933,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "16814947130506798779"
+                      "version": "0.26.54.24096",
+                      "templateHash": "15755400863059802223"
                     },
                     "description": "Creates an Azure App Service in an existing Azure App Service plan."
                   },
@@ -5163,8 +5160,8 @@
                           "metadata": {
                             "_generator": {
                               "name": "bicep",
-                              "version": "0.26.170.59819",
-                              "templateHash": "15901877046756643519"
+                              "version": "0.26.54.24096",
+                              "templateHash": "17055000515602849240"
                             },
                             "description": "Updates app settings for an Azure App Service."
                           },
@@ -5241,8 +5238,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "2390256577307700589"
+                      "version": "0.26.54.24096",
+                      "templateHash": "5795525499710207356"
                     },
                     "description": "Creates a role assignment for a service principal."
                   },
@@ -5310,8 +5307,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "2390256577307700589"
+                      "version": "0.26.54.24096",
+                      "templateHash": "5795525499710207356"
                     },
                     "description": "Creates a role assignment for a service principal."
                   },
@@ -5379,8 +5376,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "2390256577307700589"
+                      "version": "0.26.54.24096",
+                      "templateHash": "5795525499710207356"
                     },
                     "description": "Creates a role assignment for a service principal."
                   },
@@ -5448,8 +5445,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "2390256577307700589"
+                      "version": "0.26.54.24096",
+                      "templateHash": "5795525499710207356"
                     },
                     "description": "Creates a role assignment for a service principal."
                   },
@@ -5514,8 +5511,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "7922086847377910894"
+                      "version": "0.26.54.24096",
+                      "templateHash": "4480412712998156633"
                     },
                     "description": "Assigns an Azure Key Vault access policy."
                   },
@@ -5628,8 +5625,8 @@
           "metadata": {
             "_generator": {
               "name": "bicep",
-              "version": "0.26.170.59819",
-              "templateHash": "10048108379044846923"
+              "version": "0.26.54.24096",
+              "templateHash": "54270050405814058"
             },
             "description": "Creates an Application Insights instance and a Log Analytics workspace."
           },
@@ -5680,8 +5677,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "17101038721523251751"
+                      "version": "0.26.54.24096",
+                      "templateHash": "5766449277789384912"
                     },
                     "description": "Creates a Log Analytics workspace."
                   },
@@ -5761,8 +5758,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "5016503703443937813"
+                      "version": "0.26.54.24096",
+                      "templateHash": "1697740909761260680"
                     },
                     "description": "Creates an Application Insights instance based on an existing Log Analytics workspace."
                   },
@@ -5826,8 +5823,8 @@
                           "metadata": {
                             "_generator": {
                               "name": "bicep",
-                              "version": "0.26.170.59819",
-                              "templateHash": "4596399009213720452"
+                              "version": "0.26.54.24096",
+                              "templateHash": "623850250427461329"
                             },
                             "description": "Creates a dashboard for an Application Insights instance."
                           },
@@ -7157,8 +7154,8 @@
           "metadata": {
             "_generator": {
               "name": "bicep",
-              "version": "0.26.170.59819",
-              "templateHash": "2156600869334188821"
+              "version": "0.26.54.24096",
+              "templateHash": "13808750971846892864"
             }
           },
           "parameters": {
@@ -7240,8 +7237,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "10520241319603231084"
+                      "version": "0.26.54.24096",
+                      "templateHash": "9035761088187826811"
                     }
                   },
                   "parameters": {
@@ -7417,8 +7414,8 @@
           "metadata": {
             "_generator": {
               "name": "bicep",
-              "version": "0.26.170.59819",
-              "templateHash": "8686020307539198595"
+              "version": "0.26.54.24096",
+              "templateHash": "14247245129321041622"
             }
           },
           "parameters": {
@@ -7598,8 +7595,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "17970804602146615398"
+                      "version": "0.26.54.24096",
+                      "templateHash": "17375689906347065401"
                     },
                     "description": "Creates an Azure Function in an existing Azure App Service plan."
                   },
@@ -7806,8 +7803,8 @@
                           "metadata": {
                             "_generator": {
                               "name": "bicep",
-                              "version": "0.26.170.59819",
-                              "templateHash": "16814947130506798779"
+                              "version": "0.26.54.24096",
+                              "templateHash": "15755400863059802223"
                             },
                             "description": "Creates an Azure App Service in an existing Azure App Service plan."
                           },
@@ -8033,8 +8030,8 @@
                                   "metadata": {
                                     "_generator": {
                                       "name": "bicep",
-                                      "version": "0.26.170.59819",
-                                      "templateHash": "15901877046756643519"
+                                      "version": "0.26.54.24096",
+                                      "templateHash": "17055000515602849240"
                                     },
                                     "description": "Updates app settings for an Azure App Service."
                                   },
@@ -8129,8 +8126,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "2390256577307700589"
+                      "version": "0.26.54.24096",
+                      "templateHash": "5795525499710207356"
                     },
                     "description": "Creates a role assignment for a service principal."
                   },
@@ -8198,8 +8195,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "2390256577307700589"
+                      "version": "0.26.54.24096",
+                      "templateHash": "5795525499710207356"
                     },
                     "description": "Creates a role assignment for a service principal."
                   },
@@ -8267,8 +8264,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "2390256577307700589"
+                      "version": "0.26.54.24096",
+                      "templateHash": "5795525499710207356"
                     },
                     "description": "Creates a role assignment for a service principal."
                   },
@@ -8336,8 +8333,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "2390256577307700589"
+                      "version": "0.26.54.24096",
+                      "templateHash": "5795525499710207356"
                     },
                     "description": "Creates a role assignment for a service principal."
                   },
@@ -8405,8 +8402,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "2390256577307700589"
+                      "version": "0.26.54.24096",
+                      "templateHash": "5795525499710207356"
                     },
                     "description": "Creates a role assignment for a service principal."
                   },
@@ -8471,8 +8468,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "7922086847377910894"
+                      "version": "0.26.54.24096",
+                      "templateHash": "4480412712998156633"
                     },
                     "description": "Assigns an Azure Key Vault access policy."
                   },
@@ -8634,8 +8631,8 @@
           "metadata": {
             "_generator": {
               "name": "bicep",
-              "version": "0.26.170.59819",
-              "templateHash": "8686020307539198595"
+              "version": "0.26.54.24096",
+              "templateHash": "14247245129321041622"
             }
           },
           "parameters": {
@@ -8815,8 +8812,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "17970804602146615398"
+                      "version": "0.26.54.24096",
+                      "templateHash": "17375689906347065401"
                     },
                     "description": "Creates an Azure Function in an existing Azure App Service plan."
                   },
@@ -9023,8 +9020,8 @@
                           "metadata": {
                             "_generator": {
                               "name": "bicep",
-                              "version": "0.26.170.59819",
-                              "templateHash": "16814947130506798779"
+                              "version": "0.26.54.24096",
+                              "templateHash": "15755400863059802223"
                             },
                             "description": "Creates an Azure App Service in an existing Azure App Service plan."
                           },
@@ -9250,8 +9247,8 @@
                                   "metadata": {
                                     "_generator": {
                                       "name": "bicep",
-                                      "version": "0.26.170.59819",
-                                      "templateHash": "15901877046756643519"
+                                      "version": "0.26.54.24096",
+                                      "templateHash": "17055000515602849240"
                                     },
                                     "description": "Updates app settings for an Azure App Service."
                                   },
@@ -9346,8 +9343,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "2390256577307700589"
+                      "version": "0.26.54.24096",
+                      "templateHash": "5795525499710207356"
                     },
                     "description": "Creates a role assignment for a service principal."
                   },
@@ -9415,8 +9412,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "2390256577307700589"
+                      "version": "0.26.54.24096",
+                      "templateHash": "5795525499710207356"
                     },
                     "description": "Creates a role assignment for a service principal."
                   },
@@ -9484,8 +9481,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "2390256577307700589"
+                      "version": "0.26.54.24096",
+                      "templateHash": "5795525499710207356"
                     },
                     "description": "Creates a role assignment for a service principal."
                   },
@@ -9553,8 +9550,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "2390256577307700589"
+                      "version": "0.26.54.24096",
+                      "templateHash": "5795525499710207356"
                     },
                     "description": "Creates a role assignment for a service principal."
                   },
@@ -9622,8 +9619,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "2390256577307700589"
+                      "version": "0.26.54.24096",
+                      "templateHash": "5795525499710207356"
                     },
                     "description": "Creates a role assignment for a service principal."
                   },
@@ -9688,8 +9685,8 @@
                   "metadata": {
                     "_generator": {
                       "name": "bicep",
-                      "version": "0.26.170.59819",
-                      "templateHash": "7922086847377910894"
+                      "version": "0.26.54.24096",
+                      "templateHash": "4480412712998156633"
                     },
                     "description": "Assigns an Azure Key Vault access policy."
                   },
@@ -9793,8 +9790,8 @@
           "metadata": {
             "_generator": {
               "name": "bicep",
-              "version": "0.26.170.59819",
-              "templateHash": "10580067567296932781"
+              "version": "0.26.54.24096",
+              "templateHash": "5605014717660667625"
             },
             "description": "Creates an Azure Cognitive Services instance."
           },
@@ -9944,8 +9941,8 @@
           "metadata": {
             "_generator": {
               "name": "bicep",
-              "version": "0.26.170.59819",
-              "templateHash": "10580067567296932781"
+              "version": "0.26.54.24096",
+              "templateHash": "5605014717660667625"
             },
             "description": "Creates an Azure Cognitive Services instance."
           },
@@ -10098,8 +10095,8 @@
           "metadata": {
             "_generator": {
               "name": "bicep",
-              "version": "0.26.170.59819",
-              "templateHash": "17903656266919316099"
+              "version": "0.26.54.24096",
+              "templateHash": "16481205192586151834"
             }
           },
           "parameters": {
@@ -10228,8 +10225,8 @@
           "metadata": {
             "_generator": {
               "name": "bicep",
-              "version": "0.26.170.59819",
-              "templateHash": "6920700803708650043"
+              "version": "0.26.54.24096",
+              "templateHash": "10351394008577244719"
             },
             "description": "Creates an Azure storage account."
           },
@@ -10453,8 +10450,8 @@
           "metadata": {
             "_generator": {
               "name": "bicep",
-              "version": "0.26.170.59819",
-              "templateHash": "2390256577307700589"
+              "version": "0.26.54.24096",
+              "templateHash": "5795525499710207356"
             },
             "description": "Creates a role assignment for a service principal."
           },
@@ -10523,8 +10520,8 @@
           "metadata": {
             "_generator": {
               "name": "bicep",
-              "version": "0.26.170.59819",
-              "templateHash": "2390256577307700589"
+              "version": "0.26.54.24096",
+              "templateHash": "5795525499710207356"
             },
             "description": "Creates a role assignment for a service principal."
           },
@@ -10593,8 +10590,8 @@
           "metadata": {
             "_generator": {
               "name": "bicep",
-              "version": "0.26.170.59819",
-              "templateHash": "2390256577307700589"
+              "version": "0.26.54.24096",
+              "templateHash": "5795525499710207356"
             },
             "description": "Creates a role assignment for a service principal."
           },
@@ -10663,8 +10660,8 @@
           "metadata": {
             "_generator": {
               "name": "bicep",
-              "version": "0.26.170.59819",
-              "templateHash": "2390256577307700589"
+              "version": "0.26.54.24096",
+              "templateHash": "5795525499710207356"
             },
             "description": "Creates a role assignment for a service principal."
           },

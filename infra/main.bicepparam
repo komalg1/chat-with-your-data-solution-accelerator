@@ -23,7 +23,7 @@ param azureOpenAIVisionModelName = readEnvironmentVariable('AZURE_OPENAI_VISION_
 param azureOpenAIVisionModelVersion = readEnvironmentVariable('AZURE_OPENAI_VISION_MODEL_VERSION', 'vision-preview')
 param azureOpenAIVisionModelCapacity = int(readEnvironmentVariable('AZURE_OPENAI_VISION_MODEL_CAPACITY', '10'))
 param azureOpenAIEmbeddingModelCapacity = int(readEnvironmentVariable('AZURE_OPENAI_EMBEDDING_MODEL_CAPACITY', '30'))
-
+param azureSearchUseIntegratedVectorization = bool(readEnvironmentVariable('AZURE_SEARCH_USE_INTEGRATED_VECTORIZATION', 'false'))
 param computerVisionLocation = readEnvironmentVariable('AZURE_COMPUTER_VISION_LOCATION', '')
 
 // The following are being renamed to align with the new naming convention

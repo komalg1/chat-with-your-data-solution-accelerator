@@ -85,9 +85,6 @@ param azureSearchTitleColumn string = 'title'
 param azureSearchUrlColumn string = 'url'
 
 @description('Use Azure Search Integrated Vectorization (Not yet implemented)')
-@allowed([
-  false
-])
 param azureSearchUseIntegratedVectorization bool = false
 
 @description('Name of Azure OpenAI Resource')
