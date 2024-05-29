@@ -149,9 +149,6 @@ param azureOpenAITopP string = '1'
 @description('Azure OpenAI Max Tokens')
 param azureOpenAIMaxTokens string = '1000'
 
-@description('Azure OpenAI Stop Sequence')
-param azureOpenAIStopSequence string = '\n'
-
 @description('Azure OpenAI System Message')
 param azureOpenAISystemMessage string = 'You are an AI assistant that helps people find information.'
 
@@ -533,7 +530,6 @@ module web './app/web.bicep' = if (hostingModel == 'code') {
       AZURE_OPENAI_TEMPERATURE: azureOpenAITemperature
       AZURE_OPENAI_TOP_P: azureOpenAITopP
       AZURE_OPENAI_MAX_TOKENS: azureOpenAIMaxTokens
-      AZURE_OPENAI_STOP_SEQUENCE: azureOpenAIStopSequence
       AZURE_OPENAI_SYSTEM_MESSAGE: azureOpenAISystemMessage
       AZURE_OPENAI_API_VERSION: azureOpenAIApiVersion
       AZURE_OPENAI_STREAM: azureOpenAIStream
@@ -607,7 +603,6 @@ module web_docker './app/web.bicep' = if (hostingModel == 'container') {
       AZURE_OPENAI_TEMPERATURE: azureOpenAITemperature
       AZURE_OPENAI_TOP_P: azureOpenAITopP
       AZURE_OPENAI_MAX_TOKENS: azureOpenAIMaxTokens
-      AZURE_OPENAI_STOP_SEQUENCE: azureOpenAIStopSequence
       AZURE_OPENAI_SYSTEM_MESSAGE: azureOpenAISystemMessage
       AZURE_OPENAI_API_VERSION: azureOpenAIApiVersion
       AZURE_OPENAI_STREAM: azureOpenAIStream
@@ -681,7 +676,6 @@ module adminweb './app/adminweb.bicep' = if (hostingModel == 'code') {
       AZURE_OPENAI_TEMPERATURE: azureOpenAITemperature
       AZURE_OPENAI_TOP_P: azureOpenAITopP
       AZURE_OPENAI_MAX_TOKENS: azureOpenAIMaxTokens
-      AZURE_OPENAI_STOP_SEQUENCE: azureOpenAIStopSequence
       AZURE_OPENAI_SYSTEM_MESSAGE: azureOpenAISystemMessage
       AZURE_OPENAI_API_VERSION: azureOpenAIApiVersion
       AZURE_OPENAI_STREAM: azureOpenAIStream
@@ -753,7 +747,6 @@ module adminweb_docker './app/adminweb.bicep' = if (hostingModel == 'container')
       AZURE_OPENAI_TEMPERATURE: azureOpenAITemperature
       AZURE_OPENAI_TOP_P: azureOpenAITopP
       AZURE_OPENAI_MAX_TOKENS: azureOpenAIMaxTokens
-      AZURE_OPENAI_STOP_SEQUENCE: azureOpenAIStopSequence
       AZURE_OPENAI_SYSTEM_MESSAGE: azureOpenAISystemMessage
       AZURE_OPENAI_API_VERSION: azureOpenAIApiVersion
       AZURE_OPENAI_STREAM: azureOpenAIStream
@@ -1059,7 +1052,6 @@ output AZURE_LOCATION string = location
 output AZURE_OPENAI_MODEL_NAME string = azureOpenAIModelName
 output AZURE_OPENAI_STREAM string = azureOpenAIStream
 output AZURE_OPENAI_SYSTEM_MESSAGE string = azureOpenAISystemMessage
-output AZURE_OPENAI_STOP_SEQUENCE string = azureOpenAIStopSequence
 output AZURE_OPENAI_MAX_TOKENS string = azureOpenAIMaxTokens
 output AZURE_OPENAI_TOP_P string = azureOpenAITopP
 output AZURE_OPENAI_TEMPERATURE string = azureOpenAITemperature

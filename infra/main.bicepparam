@@ -36,7 +36,6 @@ param azureOpenAIEmbeddingModel = readEnvironmentVariable('AZURE_OPENAI_EMBEDDIN
 param azureOpenAIMaxTokens = readEnvironmentVariable('AZURE_OPENAI_MAX_TOKENS', '1000')
 param azureOpenAITemperature = readEnvironmentVariable('AZURE_OPENAI_TEMPERATURE', '0')
 param azureOpenAITopP = readEnvironmentVariable('AZURE_OPENAI_TOP_P', '1')
-param azureOpenAIStopSequence = readEnvironmentVariable('AZURE_OPENAI_STOP_SEQUENCE', '\n')
 
 // Computer Vision parameters
 param computerVisionLocation = readEnvironmentVariable('AZURE_COMPUTER_VISION_LOCATION', '')

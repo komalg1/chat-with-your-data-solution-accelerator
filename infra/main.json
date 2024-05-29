@@ -5,7 +5,7 @@
     "_generator": {
       "name": "bicep",
       "version": "0.27.1.19265",
-      "templateHash": "10484197901623589764"
+      "templateHash": "6877735387416650142"
     }
   },
   "parameters": {
@@ -306,13 +306,6 @@
       "defaultValue": "1000",
       "metadata": {
         "description": "Azure OpenAI Max Tokens"
-      }
-    },
-    "azureOpenAIStopSequence": {
-      "type": "string",
-      "defaultValue": "\n",
-      "metadata": {
-        "description": "Azure OpenAI Stop Sequence"
       }
     },
     "azureOpenAISystemMessage": {
@@ -2014,7 +2007,6 @@
               "AZURE_OPENAI_TEMPERATURE": "[parameters('azureOpenAITemperature')]",
               "AZURE_OPENAI_TOP_P": "[parameters('azureOpenAITopP')]",
               "AZURE_OPENAI_MAX_TOKENS": "[parameters('azureOpenAIMaxTokens')]",
-              "AZURE_OPENAI_STOP_SEQUENCE": "[parameters('azureOpenAIStopSequence')]",
               "AZURE_OPENAI_SYSTEM_MESSAGE": "[parameters('azureOpenAISystemMessage')]",
               "AZURE_OPENAI_API_VERSION": "[parameters('azureOpenAIApiVersion')]",
               "AZURE_OPENAI_STREAM": "[parameters('azureOpenAIStream')]",
@@ -2968,7 +2960,6 @@
               "AZURE_OPENAI_TEMPERATURE": "[parameters('azureOpenAITemperature')]",
               "AZURE_OPENAI_TOP_P": "[parameters('azureOpenAITopP')]",
               "AZURE_OPENAI_MAX_TOKENS": "[parameters('azureOpenAIMaxTokens')]",
-              "AZURE_OPENAI_STOP_SEQUENCE": "[parameters('azureOpenAIStopSequence')]",
               "AZURE_OPENAI_SYSTEM_MESSAGE": "[parameters('azureOpenAISystemMessage')]",
               "AZURE_OPENAI_API_VERSION": "[parameters('azureOpenAIApiVersion')]",
               "AZURE_OPENAI_STREAM": "[parameters('azureOpenAIStream')]",
@@ -3922,7 +3913,6 @@
               "AZURE_OPENAI_TEMPERATURE": "[parameters('azureOpenAITemperature')]",
               "AZURE_OPENAI_TOP_P": "[parameters('azureOpenAITopP')]",
               "AZURE_OPENAI_MAX_TOKENS": "[parameters('azureOpenAIMaxTokens')]",
-              "AZURE_OPENAI_STOP_SEQUENCE": "[parameters('azureOpenAIStopSequence')]",
               "AZURE_OPENAI_SYSTEM_MESSAGE": "[parameters('azureOpenAISystemMessage')]",
               "AZURE_OPENAI_API_VERSION": "[parameters('azureOpenAIApiVersion')]",
               "AZURE_OPENAI_STREAM": "[parameters('azureOpenAIStream')]",
@@ -4865,7 +4855,6 @@
               "AZURE_OPENAI_TEMPERATURE": "[parameters('azureOpenAITemperature')]",
               "AZURE_OPENAI_TOP_P": "[parameters('azureOpenAITopP')]",
               "AZURE_OPENAI_MAX_TOKENS": "[parameters('azureOpenAIMaxTokens')]",
-              "AZURE_OPENAI_STOP_SEQUENCE": "[parameters('azureOpenAIStopSequence')]",
               "AZURE_OPENAI_SYSTEM_MESSAGE": "[parameters('azureOpenAISystemMessage')]",
               "AZURE_OPENAI_API_VERSION": "[parameters('azureOpenAIApiVersion')]",
               "AZURE_OPENAI_STREAM": "[parameters('azureOpenAIStream')]",
@@ -10955,10 +10944,6 @@
     "AZURE_OPENAI_SYSTEM_MESSAGE": {
       "type": "string",
       "value": "[parameters('azureOpenAISystemMessage')]"
-    },
-    "AZURE_OPENAI_STOP_SEQUENCE": {
-      "type": "string",
-      "value": "[parameters('azureOpenAIStopSequence')]"
     },
     "AZURE_OPENAI_MAX_TOKENS": {
       "type": "string",
